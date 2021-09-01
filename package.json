@@ -1,0 +1,28 @@
+{
+  "name": "db_lesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CLTsolutions/db_lesson.git"
+  },
+  "keywords": [],
+  "author": "Chelsey T",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CLTsolutions/db_lesson/issues"
+  },
+  "homepage": "https://github.com/CLTsolutions/db_lesson#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5"
+  }
+}
